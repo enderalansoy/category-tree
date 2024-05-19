@@ -5,7 +5,7 @@ import Button from '../Button/Button';
 import { Category } from '../../App';
 
 interface TreeNodeProps {
-  category: Category;
+  category: Omit<Category, 'parent'>;
   children?: React.ReactNode;
   checked: boolean;
   onToggle: (id: string, name: string) => void;
