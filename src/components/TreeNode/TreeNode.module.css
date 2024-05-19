@@ -1,0 +1,14 @@
+@import '../../theme/theme.css';
+
+.treeNode {
+  margin: var(--spacing-large) 0;
+}
+
+.treeNode__content {
+  display: flex;
+  align-items: center;
+}
+
+.treeNode__children {
+  margin-left: var(--spacing-large);
+}

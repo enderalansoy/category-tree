@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #007bff;
+  --color-primary-hover: #0056b3;
+  --color-background: #f4f4f4;
+  --color-white: #ffffff;
+  --color-text: #000000;
+
+  --font-size-base: 16px;
+  --font-size-large: 24px;
+  --font-size-medium: 18px;
+  --font-size-label: 20px;
+
+  --border-radius: 4px;
+
+  --spacing-small: 8px;
+  --spacing-medium: 10px;
+  --spacing-large: 20px;
+
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  --checkbox-size: 24px;
+  --label-padding: 8px;
+}

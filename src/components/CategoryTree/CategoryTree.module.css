@@ -1,0 +1,5 @@
+@import '../../theme/theme.css';
+
+.categoryTree {
+  margin: var(--spacing-large) 0;
+}

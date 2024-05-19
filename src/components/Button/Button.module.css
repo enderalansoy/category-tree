@@ -1,0 +1,27 @@
+@import '../../theme/theme.css';
+
+.button {
+  display: inline-block;
+  margin: var(--spacing-medium) 0;
+  padding: var(--spacing-medium) var(--spacing-large);
+  font-size: var(--font-size-base);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.button--text {
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.button--text:hover {
+  border-color: var(--color-primary-hover);
+  color: var(--color-white);
+}

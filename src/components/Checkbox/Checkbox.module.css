@@ -1,0 +1,20 @@
+@import '../../theme/theme.css';
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-small);
+}
+
+.checkbox__input {
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  margin-right: var(--spacing-small);
+  accent-color: var(--color-primary);
+}
+
+.checkbox__label {
+  font-size: var(--font-size-label);
+  padding: var(--label-padding);
+  cursor: pointer;
+}
