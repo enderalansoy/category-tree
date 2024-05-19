@@ -11,9 +11,23 @@ interface TreeNodeProps {
   onToggle: (id: string, name: string) => void;
 }
 
+/**
+ * A component that represents a node in the category tree.
+ * 
+ * @param {object} props - The properties object.
+ * @param {Omit<Category, 'parent'>} props.category - The category object containing id and name, excluding parent.
+ * @param {React.ReactNode} [props.children] - The child nodes of this tree node.
+ * @param {boolean} props.checked - Indicates whether the checkbox is checked.
+ * @param {Function} props.onToggle - The function to call when the checkbox is toggled.
+ * 
+ * @returns {JSX.Element} The rendered tree node component.
+ */
 const TreeNode: React.FC<TreeNodeProps> = ({ category, children, checked, onToggle }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  /**
+   * Handles the expand/collapse action of the tree node.
+   */
   const handleExpand = () => {
     setIsExpanded(!isExpanded);
   };

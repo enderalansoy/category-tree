@@ -8,7 +8,7 @@ body {
 }
 
 .app {
-  max-width: 1200px; /* Increase the max-width for desktop */
+  max-width: 1200px;
   margin: var(--spacing-large) auto;
   padding: var(--spacing-large);
   background: var(--color-white);

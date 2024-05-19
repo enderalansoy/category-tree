@@ -6,6 +6,14 @@ interface SelectedCategoriesProps {
   selectedCategories: CategoryMap;
 }
 
+/**
+ * A component that displays the list of selected categories.
+ * 
+ * @param {object} props - The properties object.
+ * @param {CategoryMap} props.selectedCategories - The map of selected categories.
+ * 
+ * @returns {JSX.Element} The rendered selected categories component.
+ */
 const SelectedCategories: React.FC<SelectedCategoriesProps> = ({ selectedCategories }) => {
   return (
     <div className={styles.selectedCategories}>

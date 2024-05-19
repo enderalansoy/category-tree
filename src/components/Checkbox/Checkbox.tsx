@@ -8,6 +8,17 @@ interface CheckboxProps {
   id: string;
 }
 
+/**
+ * A reusable checkbox component.
+ * 
+ * @param {object} props - The properties object.
+ * @param {boolean} props.checked - Indicates whether the checkbox is checked.
+ * @param {() => void} props.onChange - The function to call when the checkbox state changes.
+ * @param {string} props.label - The label to display alongside the checkbox.
+ * @param {string} props.id - The unique identifier for the checkbox.
+ * 
+ * @returns {JSX.Element} The rendered checkbox component.
+ */
 const Checkbox: React.FC<CheckboxProps> = ({ checked, onChange, label, id }) => {
   return (
     <div className={styles.checkbox}>

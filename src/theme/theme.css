@@ -1,4 +1,29 @@
-:root {
+/**
+ * Theme variables
+ * 
+ * @color-primary - The primary color used in the application.
+ * @color-primary-hover - The primary color used when hovering over elements.
+ * @color-background - The background color used in the application.
+ * @color-white - The color white.
+ * @color-text - The color used for text.
+ * 
+ * @font-size-base - The base font size.
+ * @font-size-large - The font size used for large text.
+ * @font-size-medium - The font size used for medium text.
+ * @font-size-label - The font size used for labels.
+ * 
+ * @border-radius - The default border radius for elements.
+ * 
+ * @spacing-small - The spacing used for small gaps.
+ * @spacing-medium - The spacing used for medium gaps.
+ * @spacing-large - The spacing used for large gaps.
+ * 
+ * @box-shadow - The default box shadow for elements.
+ * 
+ * @checkbox-size - The size of checkboxes.
+ * @label-padding - The padding used for labels.
+ */
+ :root {
   --color-primary: #007bff;
   --color-primary-hover: #0056b3;
   --color-background: #f4f4f4;
