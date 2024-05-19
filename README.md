@@ -4,6 +4,10 @@
 
 This project implements a faceted checkbox tree component using React. The UI displays a tree of checkboxes with names for the categories. It is designed to be mobile-friendly and accessible, ensuring a great user experience across devices.
 
+## Demo
+
+Demo is available at https://category-tree-five.vercel.app/
+
 ## Features
 
 - Expandable and collapsible category tree.
