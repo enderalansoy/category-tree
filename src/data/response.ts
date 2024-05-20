@@ -322,11 +322,6 @@ export const data = {
       name: "Shoes",
     },
     {
-      id: "21252",
-      parent: "14449",
-      name: "Shirts",
-    },
-    {
       id: "14126",
       parent: "0",
       name: "Kids",
